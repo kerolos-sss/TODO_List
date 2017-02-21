@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90C43471E5B0DE700F345F2 /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90C43461E5B0DE600F345F2 /* PickerView.xib */; };
+		C90C434B1E5B11A000F345F2 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C90C434A1E5B11A000F345F2 /* DatePickerView.xib */; };
+		C95431011E59F259006B3B7F /* StrikeThroughText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95430FE1E59F259006B3B7F /* StrikeThroughText.swift */; };
+		C95431021E59F259006B3B7F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95430FF1E59F259006B3B7F /* TableViewCell.swift */; };
+		C95431031E59F259006B3B7F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95431001E59F259006B3B7F /* ToDoItem.swift */; };
 		C97B68B81E59E15A007F916A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B68B71E59E15A007F916A /* AppDelegate.swift */; };
 		C97B68BA1E59E15A007F916A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B68B91E59E15A007F916A /* ViewController.swift */; };
 		C97B68BD1E59E15C007F916A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97B68BB1E59E15C007F916A /* Main.storyboard */; };
@@ -14,6 +19,9 @@
 		C97B68C21E59E15C007F916A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97B68C01E59E15C007F916A /* LaunchScreen.storyboard */; };
 		C97B68CD1E59E15F007F916A /* kero_test_swift_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B68CC1E59E15F007F916A /* kero_test_swift_1Tests.swift */; };
 		C97B68D81E59E15F007F916A /* kero_test_swift_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97B68D71E59E15F007F916A /* kero_test_swift_1UITests.swift */; };
+		C9ED519E1E5C3591000DFCE5 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED519D1E5C3591000DFCE5 /* DatePickerView.swift */; };
+		C9ED51A11E5C3DDE000DFCE5 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED51A01E5C3DDE000DFCE5 /* DatePickerViewController.swift */; };
+		C9ED51A31E5C5D4E000DFCE5 /* PickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED51A21E5C5D4D000DFCE5 /* PickerDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C90C43461E5B0DE600F345F2 /* PickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		C90C434A1E5B11A000F345F2 /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
+		C95430FE1E59F259006B3B7F /* StrikeThroughText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrikeThroughText.swift; sourceTree = "<group>"; };
+		C95430FF1E59F259006B3B7F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C95431001E59F259006B3B7F /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		C97B68B41E59E15A007F916A /* kero_test_swift_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kero_test_swift_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97B68B71E59E15A007F916A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C97B68B91E59E15A007F916A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		C97B68D31E59E15F007F916A /* kero_test_swift_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kero_test_swift_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97B68D71E59E15F007F916A /* kero_test_swift_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kero_test_swift_1UITests.swift; sourceTree = "<group>"; };
 		C97B68D91E59E15F007F916A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ED519D1E5C3591000DFCE5 /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		C9ED51A01E5C3DDE000DFCE5 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		C9ED51A21E5C5D4D000DFCE5 /* PickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +115,18 @@
 			children = (
 				C97B68B71E59E15A007F916A /* AppDelegate.swift */,
 				C97B68B91E59E15A007F916A /* ViewController.swift */,
+				C95430FE1E59F259006B3B7F /* StrikeThroughText.swift */,
+				C95430FF1E59F259006B3B7F /* TableViewCell.swift */,
+				C95431001E59F259006B3B7F /* ToDoItem.swift */,
 				C97B68BB1E59E15C007F916A /* Main.storyboard */,
 				C97B68BE1E59E15C007F916A /* Assets.xcassets */,
 				C97B68C01E59E15C007F916A /* LaunchScreen.storyboard */,
 				C97B68C31E59E15C007F916A /* Info.plist */,
+				C90C43461E5B0DE600F345F2 /* PickerView.xib */,
+				C90C434A1E5B11A000F345F2 /* DatePickerView.xib */,
+				C9ED519D1E5C3591000DFCE5 /* DatePickerView.swift */,
+				C9ED51A01E5C3DDE000DFCE5 /* DatePickerViewController.swift */,
+				C9ED51A21E5C5D4D000DFCE5 /* PickerDialog.swift */,
 			);
 			path = kero_test_swift_1;
 			sourceTree = "<group>";
@@ -235,8 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90C43471E5B0DE700F345F2 /* PickerView.xib in Resources */,
 				C97B68C21E59E15C007F916A /* LaunchScreen.storyboard in Resources */,
 				C97B68BF1E59E15C007F916A /* Assets.xcassets in Resources */,
+				C90C434B1E5B11A000F345F2 /* DatePickerView.xib in Resources */,
 				C97B68BD1E59E15C007F916A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +289,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C97B68BA1E59E15A007F916A /* ViewController.swift in Sources */,
+				C95431021E59F259006B3B7F /* TableViewCell.swift in Sources */,
+				C95431031E59F259006B3B7F /* ToDoItem.swift in Sources */,
+				C9ED51A31E5C5D4E000DFCE5 /* PickerDialog.swift in Sources */,
+				C9ED51A11E5C3DDE000DFCE5 /* DatePickerViewController.swift in Sources */,
+				C9ED519E1E5C3591000DFCE5 /* DatePickerView.swift in Sources */,
 				C97B68B81E59E15A007F916A /* AppDelegate.swift in Sources */,
+				C95431011E59F259006B3B7F /* StrikeThroughText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99M4C8EJB3;
 				INFOPLIST_FILE = kero_test_swift_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kero.testing.kero-test-swift-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 99M4C8EJB3;
 				INFOPLIST_FILE = kero_test_swift_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kero.testing.kero-test-swift-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +548,7 @@
 				C97B68DE1E59E15F007F916A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C97B68DF1E59E15F007F916A /* Build configuration list for PBXNativeTarget "kero_test_swift_1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +557,7 @@
 				C97B68E11E59E15F007F916A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C97B68E21E59E15F007F916A /* Build configuration list for PBXNativeTarget "kero_test_swift_1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +566,7 @@
 				C97B68E41E59E15F007F916A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
