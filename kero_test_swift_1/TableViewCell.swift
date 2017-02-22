@@ -20,17 +20,28 @@ class TableViewCell: UITableViewCell {
     let gradientLayer = CAGradientLayer()
     var originalCenter = CGPoint()
     var deleteOnDragRelease = false, completeOnDragRelease = false
+    
+    let dateLable : UILabel
     var tickLabel: UILabel, crossLabel: UILabel
     let label: StrikeThroughText
     var itemCompleteLayer = CALayer()
     // The object that acts as delegate for this cell.
     var delegate: TableViewCellDelegate?
     // The item that this cell renders.
+    
+    
+    
     var toDoItem: ToDoItem? {
         didSet {
             label.text = toDoItem!.text
             label.strikeThrough = toDoItem!.completed
             itemCompleteLayer.isHidden = !label.strikeThrough
+            let formatter = DateFormatter()
+            formatter.dateFormat = "dd.MM.yyyy HH:mm"
+
+            dateLable.text = formatter.string(from: toDoItem!.time)
+            
+            
         }
     }
     
@@ -44,6 +55,12 @@ class TableViewCell: UITableViewCell {
         label.textColor = UIColor.white
         label.font = UIFont.boldSystemFont(ofSize: 16)
         label.backgroundColor = UIColor.clear
+        
+        dateLable = StrikeThroughText(frame: CGRect.null)
+        dateLable.textColor = UIColor.white
+        dateLable.font = UIFont.boldSystemFont(ofSize: 16)
+        dateLable.backgroundColor = UIColor.clear
+        
         
         // utility method for creating the contextual cues
         func createCueLabel() -> UILabel {

@@ -6,47 +6,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "kero_test_swift_1/ViewController.swift"
-            timestampString = "509368844.423081"
+            timestampString = "509457645.317129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "163"
-            endingLineNumber = "163"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
             landmarkName = "btn1clicked(btn1:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "kero_test_swift_1.ViewController.btn1clicked (btn1 : __ObjC.UIButton) -&gt; ()"
                   moduleName = "kero_test_swift_1"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/ViewController.swift"
-                  timestampString = "509374052.929517"
+                  timestampString = "509374818.38306"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "169"
-                  endingLineNumber = "169"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
                   offsetFromSymbolStart = "484">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "kero_test_swift_1.ViewController.(btn1clicked (btn1 : __ObjC.UIButton) -&gt; ()).(closure #1)"
                   moduleName = "kero_test_swift_1"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/ViewController.swift"
-                  timestampString = "509374052.932416"
+                  timestampString = "509374818.386338"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "171"
-                  endingLineNumber = "171"
-                  offsetFromSymbolStart = "64">
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "84">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -65,68 +65,6 @@
             endingLineNumber = "31"
             landmarkName = "DatePickerView"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "kero_test_swift_1.DatePickerView.datePicker.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIDatePicker&gt;"
-                  moduleName = "kero_test_swift_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/DatePickerView.swift"
-                  timestampString = "509374052.938079"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "kero_test_swift_1.DatePickerView.datePicker.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIDatePicker&gt;"
-                  moduleName = "kero_test_swift_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/DatePickerView.swift"
-                  timestampString = "509374052.94105"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "52">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "kero_test_swift_1.DatePickerView.init (coder : __ObjC.NSCoder) -&gt; kero_test_swift_1.DatePickerView"
-                  moduleName = "kero_test_swift_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/DatePickerView.swift"
-                  timestampString = "509374052.94422"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "40">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "kero_test_swift_1.DatePickerView.init (frame : __C.CGRect) -&gt; kero_test_swift_1.DatePickerView"
-                  moduleName = "kero_test_swift_1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/DatePickerView.swift"
-                  timestampString = "509374052.947731"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "31"
-                  endingLineNumber = "31"
-                  offsetFromSymbolStart = "68">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -196,47 +134,47 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "kero_test_swift_1/ViewController.swift"
-            timestampString = "509368844.423081"
+            timestampString = "509457645.317129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
             landmarkName = "btn1clicked(btn1:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "kero_test_swift_1.ViewController.btn1clicked (btn1 : __ObjC.UIButton) -&gt; ()"
                   moduleName = "kero_test_swift_1"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/ViewController.swift"
-                  timestampString = "509374052.975029"
+                  timestampString = "509374818.40046"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "169"
-                  endingLineNumber = "169"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
                   offsetFromSymbolStart = "484">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "kero_test_swift_1.ViewController.(btn1clicked (btn1 : __ObjC.UIButton) -&gt; ()).(closure #1)"
                   moduleName = "kero_test_swift_1"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kero/Desktop/testing/kero_test_swift_1/kero_test_swift_1/ViewController.swift"
-                  timestampString = "509374052.977874"
+                  timestampString = "509374818.403598"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "171"
-                  endingLineNumber = "171"
-                  offsetFromSymbolStart = "64">
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "84">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -276,15 +214,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "kero_test_swift_1/ViewController.swift"
-            timestampString = "509368844.362084"
+            timestampString = "509457568.318152"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -296,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "kero_test_swift_1/ViewController.swift"
-            timestampString = "509373359.852346"
+            timestampString = "509457645.317129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
+            startingLineNumber = "199"
+            endingLineNumber = "199"
             landmarkName = "btn1clicked(btn1:)"
             landmarkType = "7">
          </BreakpointContent>

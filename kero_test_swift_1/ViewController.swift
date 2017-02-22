@@ -15,8 +15,37 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     var toDoItems = [ToDoItem]()
     var selectedDate = Date()
-    var picker : DatePickerViewController!
+    //var picker : DatePickerViewController!
     
+    @IBOutlet weak var date: UITextField!
+    
+    
+    func initializeTextFieldInputView (){
+        let datePicker: UIDatePicker = UIDatePicker()
+
+        datePicker.timeZone = NSTimeZone.local
+        datePicker.backgroundColor = UIColor.white
+        
+        // Add an event to call onDidChangeDate function when value is changed.
+        datePicker.addTarget(self, action: #selector(dateUpdated(sender:)), for: .valueChanged)
+        
+        //datePicker.addTarget(self, action: #selector(dateUpdated(sender:)), for: .can)
+
+        
+//        datePicker.actio
+//        datePicker.action(for: . , forKey: .)
+        datePicker.datePickerMode = .dateAndTime
+
+        self.date.inputView = datePicker;
+    }
+   
+    func dateUpdated(sender: UIDatePicker ){
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        self.date.text = formatter.string(from: sender.date)
+    }
+ 
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,9 +59,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         tableView.backgroundColor = UIColor.black
         tableView.rowHeight = 50;
         
+        
+        self.initializeTextFieldInputView()
         if toDoItems.count > 0 {
             return
         }
+        /*
         toDoItems.append(ToDoItem(text: "feed the cat"))
         toDoItems.append(ToDoItem(text: "buy eggs"))
         toDoItems.append(ToDoItem(text: "watch WWDC videos"))
@@ -45,7 +77,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         toDoItems.append(ToDoItem(text: "get more exercise"))
         toDoItems.append(ToDoItem(text: "catch up with Mom"))
         toDoItems.append(ToDoItem(text: "get a hair cut"))
-        
+        */
         
         
     }
@@ -168,7 +200,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         DatePickerDialog().show( "Task Name", doneButtonTitle: "Done", cancelButtonTitle: "Cancel", datePickerMode: .dateAndTime) {
             (date, text) -> Void in
-            var  i = 0
+            if(date != nil && text != "" ){
+                self.toDoItems.append(ToDoItem(text: text!, time: date!))
+                self.tableView.reloadData()
+            }
         }
     }
     
