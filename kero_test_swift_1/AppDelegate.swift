@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  kero_test_swift_1
+//  UIViewController
 //
 //  Created by Kero on 2/19/17.
 //  Copyright © 2017 Kero. All rights reserved.
@@ -13,13 +13,12 @@ import UserNotifications
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    public var tasks:[ToDoItem]?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         LocalNotificationUtil.configNotifications()
-        
+        UIApplication.shared.setMinimumBackgroundFetchInterval(UIApplicationBackgroundFetchIntervalMinimum)
         return true
     }
 
@@ -43,6 +42,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        NSLog("Fetching Background")
+        for i in 0...(tasks?.count)!{
+            if(tasks?[i].completed == false && (tasks?[i].time)! <= Date.init()){
+                // send post to facebook
+            }
+        }
+        completionHandler(UIBackgroundFetchResult.newData)
     }
 
 
